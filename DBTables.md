@@ -25,3 +25,7 @@
     <tr><td>modifytime</td><td>datetime</td><td></td><td>非空</td><td></td></tr>
     <tr><td>status</td><td>tinyint(4)</td><td>状态（0-无效/1-有效）</td><td>非空</td><td>1</td></tr>
 </table>
+
+
+|列名|类型|说明|可空|默认值|
+||||||
