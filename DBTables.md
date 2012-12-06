@@ -41,7 +41,7 @@
     <tr><td>phone</td><td>varchar(30)</td><td>电话</td><td>非空</td><td></td></tr>
     <tr><td>deliverdate</td><td>date</td><td>交货日期</td><td>非空</td><td></td></tr>
     <tr><td>deliveraddress</td><td>varchar(255)</td><td>交货地点</td><td>非空</td><td></td></tr>
-    <tr><td>subscription</td><td>decimal(10,2)</td><td>订金</td><td>可空</td><td>null</td></tr>
+    <tr><td>subscription</td><td>decimal(10,2)</td><td>订金</td><td>非空</td><td></td></tr>
     <tr><td>payment</td><td>varchar(30)</td><td>支付方式</td><td>非空</td><td></td></tr>
     <tr><td>email</td><td>varchar(30)</td><td>电子邮箱</td><td>非空</td><td></td></tr>
     <tr><td>createtime</td><td>datetime</td><td></td><td>非空</td><td></td></tr>
