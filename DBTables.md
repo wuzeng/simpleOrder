@@ -6,6 +6,7 @@
 * [订单详情](#订单详情): detail
 * [提醒进货](#提醒进货): purchase
 * [界面语言](#界面语言): language
+* [尺码管理](#尺码管理): size
 
 
 ---
@@ -103,6 +104,24 @@
     <tr><td>en</td><td>varchar(255)</td><td>英语</td><td>非空</td><td></td></tr>
     <tr><td>cn</td><td>varchar(255)</td><td>汉语</td><td>非空</td><td></td></tr>
     <tr><td>rus</td><td>varchar(255)</td><td>俄语</td><td>非空</td><td></td></tr>
+    <tr><td>createtime</td><td>datetime</td><td></td><td>非空</td><td></td></tr>
+    <tr><td>modifytime</td><td>datetime</td><td></td><td>非空</td><td></td></tr>
+    <tr><td>status</td><td>tinyint(4)</td><td>状态（0-无效/1-有效）</td><td>非空</td><td>1</td></tr>
+</table>
+
+[回顶部](#数据库表结构设计)
+
+---
+## 尺码管理
+
+* size
+
+<table>
+    <tr><th>列名</th><th>类型</th><th>说明</th><th>可空</th><th>默认值</th></tr>
+    <tr><td>id</td><td>int(10)</td><td>标识列</td><td>非空</td><td></td></tr>
+    <tr><td>type</td><td>varchar(30)</td><td>型号</td><td>非空</td><td></td></tr>
+    <tr><td>sex</td><td>tinyint(4)</td><td>性别（1-男/2-女/3-中）</td><td>非空</td><td></td></tr>
+    <tr><td>size</td><td>varchar(255)</td><td>尺码</td><td>非空</td><td></td></tr>
     <tr><td>createtime</td><td>datetime</td><td></td><td>非空</td><td></td></tr>
     <tr><td>modifytime</td><td>datetime</td><td></td><td>非空</td><td></td></tr>
     <tr><td>status</td><td>tinyint(4)</td><td>状态（0-无效/1-有效）</td><td>非空</td><td>1</td></tr>
